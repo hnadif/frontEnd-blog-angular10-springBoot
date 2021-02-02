@@ -1,0 +1,121 @@
+.header {
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+} 
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+.author-info {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  color: #3777C0 !important;
+}
+
+.author-info:hover > .card-data-user {
+    visibility: visible;
+    background-color: rgb(4, 2, 68);
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px 5px;
+    color: white;
+    padding: 15px;
+    text-align: justify; 
+    background-position: center;
+    max-width: 100%;
+    margin-top: -2.25rem;
+    transform: translateX(-45%) translateY(-100%);
+    transition: 32ms;
+    background-position: center;
+}
+ 
+.card-data-user::after
+.card-data-user::before { 
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 20px;
+    margin-top: -57px;
+    margin-left: 40%;
+    background: rgb(4, 2, 68);
+    bottom: -10px;
+    transform: rotate(45deg);
+    
+}
+ 
+.card-data-user {
+    visibility: hidden;
+    position: absolute;
+    margin-top: -19rem;
+}
+
+.postdate {
+    color: rgba(0,0,0,.54) !important;
+    font-size: 15px !important;
+    margin-left: 44px;
+    margin-top: -25px;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.middotDivider {
+    padding-right: .3em;
+    padding-left: .3em;
+}
+.u-fontSize12 {
+    font-size: 15px !important;
+}
+
+.postText {
+    line-height: 1.5 !important;
+    margin-top: 7px !important;
+    color: rgba(0,0,0,.54) !important;
+    letter-spacing: 0 !important;
+    /*height: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.title{
+    padding-top: 5px !important;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-size: 26px !important;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 0 !important;
+    text-align: start;
+}
+
+
+h1{
+    word-wrap: break-all;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+i{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+a {
+    text-decoration: none;
+}
+

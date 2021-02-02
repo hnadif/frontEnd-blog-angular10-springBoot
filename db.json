@@ -1,0 +1,23 @@
+{
+
+"posts":[
+    {"id":1,"title":"java core", "content":"some content test for java core","userId": 1, "published": "2012-04-23T18:25:43.511Z"},
+    {"id":2,"title":"Data structure algorithm", "content":"some content test for Data structure algorithm","userId": 2, "published": "2021-01-03T18:25:43.511Z"},
+    {"id":3,"title":"JavaEE version 8 by oracle", "content":"some content test for JavaEE","userId": 3, "published": "2015-04-23T18:25:43.511Z"},
+    {"id":4,"title":"Spring Framework", "content":"some content test for Spring Framework","userId": 4, "published": "2017-04-23T18:25:43.511Z" },
+    {"id":5,"title":"Design patterns", "content":"some content test for Desinge Pattern","userId": 1, "published": "2030-09-23T19:12:43.511Z"}
+],
+"comments": [
+    { "id": 1, "body": "some comment for java core", "postId": 1 },
+    { "id": 2, "body": "some comment for Data structure&algorithme", "postId": 2 },
+    { "id": 3, "body": "some comment form JavaEE", "postId": 3 },
+    { "id": 4, "body": "some comment for DesognPattern java core", "postId": 1 }
+  ],
+  "users":[
+    {"id":1, "firstname": "hamza", "lastname": "nadif", "profession": "Developper java", "username": "hnad1"},
+    {"id":2, "firstname": "karim", "lastname": "ahmadi", "profession": "Developper .NET", "username": "KOK03"},
+    {"id":3, "firstname": "kelly", "lastname": "guerra", "profession": "Designer UI/UX", "username": "Ninja2020"},
+    {"id":4, "firstname": "albin", "lastname": "vigier", "profession": "Marketing Digital", "username": "hofcity"}
+  ]
+
+}
